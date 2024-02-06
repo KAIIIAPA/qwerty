@@ -22,7 +22,7 @@ print(my_list)
   - Измените значение для заданного ключа или добавьте новый в my_dict.
   - Выведите на экран измененный словарь my_dict.
 '''
-my_dict = {'name': 'имя', 'fox': 'лиса', 'bag': 'лиса'}
+my_dict = {'name': 'имя', 'fox': 'лиса', 'bag': 'сумка'}
 print(my_dict)
 print(my_dict['fox'])
 my_dict.setdefault('dog', 'собака')
