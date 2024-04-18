@@ -14,6 +14,7 @@ def numbers_func():
     for i in range(11):
         print(i)
         sleep(1)
+
 def letters_func():
     for i in letters:
         print(i, flush=True)
