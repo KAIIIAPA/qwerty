@@ -14,7 +14,6 @@ class BankAccount(threading.Thread):
         super().__init__()
         self.balance = 1000
         self.amount = amount
-        self.lock = lock
         self.n = n
 
 
