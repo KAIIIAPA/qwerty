@@ -8,18 +8,6 @@ PNG или GIF и возвращать их список.
 2. Используйте регулярные выражения для поиска URL-адресов картинок с расширениями .jpg, .jpeg, .png или .gif.
 3. Верните список всех найденных ссылок на изображения.
 
-Пример работы функции:
-
-sample_html = "<img src='https://example.com/image1.jpg'> <img src='http://example.com/image2.png'>
- <img src='https://example.com/image3.gif'>"
-
-image_links = extract_image_links(sample_html)
-if image_links:
-  for image_link in image_links:
-    print(image_link)
-else:
-  print("Нет ссылок с картинками в HTML тексте.")
-
 Вывод на консоль:
 https://example.com/image1.jpg
 http://example.com/image2.png
